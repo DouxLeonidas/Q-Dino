@@ -343,7 +343,6 @@ def play_dino(measurement_result):
         state = "JUMPING"
     else:
         state = "DUCKING"
-    
     spaces = int(action[1:], 2)
     score += 10 * (spaces + 1)
     high = max(high, score)
